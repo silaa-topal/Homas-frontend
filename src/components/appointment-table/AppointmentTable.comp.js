@@ -1,7 +1,9 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export const AppointmentTable = ({ appointments }) => {
+  //if (!appointments.length)
   return (
     <Table striped bordered hover>
       <thead>
@@ -36,4 +38,8 @@ export const AppointmentTable = ({ appointments }) => {
       </tbody>
     </Table>
   );
+};
+
+AppointmentTable.propTypes = {
+  appointments: PropTypes.array.isRequired,
 };
