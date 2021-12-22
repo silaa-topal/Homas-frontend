@@ -3,10 +3,16 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { FutureAppointmentTable } from "../../components/appointment-table/FutureAppointmentTable.comp";
 import { AppointmentTable } from "../../components/appointment-table/AppointmentTable.comp";
 import appointments from "../../assets/data/dummy-past-appointments.json";
+import { PageBreadcrumb } from "../../components/breadcrumb/Breadcrumb.comp";
 
-export const Dashboard = () => {
+export const Appointments = () => {
   return (
     <Container>
+      <Row>
+        <Col>
+          <PageBreadcrumb page="Appointments" />
+        </Col>
+      </Row>
       <Row>
         <Col className="text-center mt-5 mb-2">
           <Button

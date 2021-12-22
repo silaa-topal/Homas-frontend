@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { DefaultLayout } from "./layout/DefaultLayout";
-import { Dashboard } from "./pages/dashboard/Dashboard.page";
+import { Appointments } from "./pages/dashboard/Appointments";
 import { Entry } from "./pages/entry/Entry.page";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       {/* <Entry /> */}
       <DefaultLayout>
-        <Dashboard />
+        <Appointments />
       </DefaultLayout>
     </div>
   );
