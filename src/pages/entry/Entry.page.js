@@ -55,6 +55,7 @@ export const Entry = () => {
   return (
     <div className="entry-page bg-info">
       <div className="jumbotron">
+        <h1 className="text-info text-center">HOMAS</h1>
         {formLoad === "login" && (
           <LoginForm
             handleOnChange={handleOnChange}
