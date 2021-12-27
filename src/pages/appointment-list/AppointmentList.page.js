@@ -33,9 +33,9 @@ export default function AppointmentList() {
         </Col>
       </Row>
       <Row className="mt-4">
-        <Col>
+        {/* <Col>
           <Button variant="info">Add New Appointment</Button>
-        </Col>
+        </Col> */}
         <Col className="text-right">
           <SearchForm handleOnChange={handleOnChange} str={str} />
         </Col>

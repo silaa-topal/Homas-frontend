@@ -12,7 +12,7 @@ export const AddAppointmentForm = ({
 
   return (
     <div className="jumbotron">
-      <h1 className="text-info text-center">Add New Appointmet</h1>
+      <h1 className="text-info text-center">Make New Appointmet</h1>
       <hr />
       <div className="mt-3 add-new-appointment bg-light">
         <Form autoComplete="off" onSubmit={handleOnSubmit}>

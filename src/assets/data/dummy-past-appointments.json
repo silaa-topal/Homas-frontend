@@ -25,6 +25,15 @@
         "date": "2021-11-5",
         "time": "11:30"
 
+    },
+    {
+        "id":4,
+        "status": "past",
+        "doctor":"Sarah Johanson",
+        "department": "Dermatology ",
+        "date": "2021-11-1",
+        "time": "11:30"
+
     }
 
 
